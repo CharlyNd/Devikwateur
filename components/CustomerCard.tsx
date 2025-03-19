@@ -19,6 +19,11 @@ type CustomerCardProps = {
 export default function CustomerCard({ customer }: CustomerCardProps) {
   const router = useRouter();
 
+  // Get the last month's consumption data
+  const lastMonthElectricity =
+    customer.consumption.find((c) => c.key === 'electricity_jun')?.value || 0;
+  const lastMonthGas = customer.consumption.find((c) => c.key === 'gas_jun')?.value || 0;
+
   return (
     <TouchableOpacity
       className="mb-4 overflow-hidden rounded-xl bg-gray-800 p-4"
@@ -41,18 +46,22 @@ export default function CustomerCard({ customer }: CustomerCardProps) {
       </View>
 
       {/* Consumption Stats */}
-      <View className="mt-4 flex-row justify-between">
-        {customer.consumption.map((item) => (
-          <View key={item.key} className="m-1 flex-1 rounded-lg bg-gray-700 p-3">
-            <Text className="text-sm capitalize text-gray-400">{item.key}</Text>
-            <View className="mt-1 flex-row items-baseline">
-              <Text className="text-lg font-bold text-white">{item.value}</Text>
-              <Text className="ml-1 text-sm text-gray-400">
-                {item.key === 'electricity' ? 'kWh' : 'm³'}
-              </Text>
-            </View>
-          </View>
-        ))}
+      <View className="mt-4 flex-row justify-around">
+        {/* Electricity */}
+        <View className="flex-row items-center">
+          <FontAwesome name="bolt" size={16} color="#14b8a6" />
+          <Text className="ml-2 text-gray-400">
+            <Text className="text-white">{lastMonthElectricity}</Text> kWh
+          </Text>
+        </View>
+
+        {/* Gas */}
+        <View className="flex-row items-center">
+          <FontAwesome name="fire" size={16} color="#14b8a6" />
+          <Text className="ml-2 text-gray-400">
+            <Text className="text-white">{lastMonthGas}</Text> m³
+          </Text>
+        </View>
       </View>
     </TouchableOpacity>
   );

@@ -6,14 +6,18 @@
         "age": 43,
         "pod": "FR123456789",
         "consumption": [
-            {
-                "key": "electricity",
-                "value": 150
-            },
-            {
-                "key": "gas",
-                "value": 10
-            }
+            { "key": "electricity_jan", "value": 450 },
+            { "key": "electricity_feb", "value": 405 },
+            { "key": "electricity_mar", "value": 540 },
+            { "key": "electricity_apr", "value": 382 },
+            { "key": "electricity_may", "value": 495 },
+            { "key": "electricity_jun", "value": 427 },
+            { "key": "gas_jan", "value": 100 },
+            { "key": "gas_feb", "value": 110 },
+            { "key": "gas_mar", "value": 80 },
+            { "key": "gas_apr", "value": 70 },
+            { "key": "gas_may", "value": 60 },
+            { "key": "gas_jun", "value": 50 }
         ]
     },
     {
@@ -23,14 +27,18 @@
         "age": 24,
         "pod": "FR987654321",
         "consumption": [
-            {
-                "key": "electricity",
-                "value": 120
-            },
-            {
-                "key": "gas",
-                "value": 5
-            }
+            { "key": "electricity_jan", "value": 450 },
+            { "key": "electricity_feb", "value": 405 },
+            { "key": "electricity_mar", "value": 540 },
+            { "key": "electricity_apr", "value": 382 },
+            { "key": "electricity_may", "value": 495 },
+            { "key": "electricity_jun", "value": 427 },
+            { "key": "gas_jan", "value": 100 },
+            { "key": "gas_feb", "value": 110 },
+            { "key": "gas_mar", "value": 80 },
+            { "key": "gas_apr", "value": 70 },
+            { "key": "gas_may", "value": 60 },
+            { "key": "gas_jun", "value": 50 }
         ]
     },
     {
@@ -40,14 +48,18 @@
         "age": 18,
         "pod": "FR456789123",
         "consumption": [
-            {
-                "key": "electricity",
-                "value": 100
-            },
-            {
-                "key": "gas",
-                "value": 3
-            }
+            { "key": "electricity_jan", "value": 450 },
+            { "key": "electricity_feb", "value": 405 },
+            { "key": "electricity_mar", "value": 540 },
+            { "key": "electricity_apr", "value": 382 },
+            { "key": "electricity_may", "value": 495 },
+            { "key": "electricity_jun", "value": 427 },
+            { "key": "gas_jan", "value": 100 },
+            { "key": "gas_feb", "value": 110 },
+            { "key": "gas_mar", "value": 80 },
+            { "key": "gas_apr", "value": 70 },
+            { "key": "gas_may", "value": 60 },
+            { "key": "gas_jun", "value": 50 }
         ]
     },
     {
@@ -57,14 +69,18 @@
         "age": 25,
         "pod": "FR789123456",
         "consumption": [
-            {
-                "key": "electricity",
-                "value": 130
-            },
-            {
-                "key": "gas",
-                "value": 7
-            }
+            { "key": "electricity_jan", "value": 450 },
+            { "key": "electricity_feb", "value": 405 },
+            { "key": "electricity_mar", "value": 540 },
+            { "key": "electricity_apr", "value": 382 },
+            { "key": "electricity_may", "value": 495 },
+            { "key": "electricity_jun", "value": 427 },
+            { "key": "gas_jan", "value": 100 },
+            { "key": "gas_feb", "value": 110 },
+            { "key": "gas_mar", "value": 80 },
+            { "key": "gas_apr", "value": 70 },
+            { "key": "gas_may", "value": 60 },
+            { "key": "gas_jun", "value": 50 }
         ]
     }
 ]
