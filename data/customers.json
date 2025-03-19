@@ -4,6 +4,7 @@
         "firstName": "Bob",
         "lastName": "Morane",
         "age": 43,
+        "pod": "FR123456789",
         "consumption": [
             {
                 "key": "electricity",
@@ -20,6 +21,7 @@
         "firstName": "Axel",
         "lastName": "Foley",
         "age": 24,
+        "pod": "FR987654321",
         "consumption": [
             {
                 "key": "electricity",
@@ -36,6 +38,7 @@
         "firstName": "Katniss",
         "lastName": "Everdeen",
         "age": 18,
+        "pod": "FR456789123",
         "consumption": [
             {
                 "key": "electricity",
@@ -52,6 +55,7 @@
         "firstName": "Halice",
         "lastName": "Cooper",
         "age": 25,
+        "pod": "FR789123456",
         "consumption": [
             {
                 "key": "electricity",
