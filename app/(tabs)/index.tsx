@@ -1,5 +1,7 @@
 import { SafeAreaView, StatusBar, Text, TextInput, View } from 'react-native';
 
+import YoungCustomersButton from '../../components/YoungCustomersButton';
+
 export default function Home() {
   return (
     <>
@@ -21,6 +23,8 @@ export default function Home() {
               />
             </View>
           </View>
+          {/* Young Customers Button */}
+          <YoungCustomersButton />
         </View>
       </SafeAreaView>
     </>
