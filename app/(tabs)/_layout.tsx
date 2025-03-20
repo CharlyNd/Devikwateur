@@ -17,7 +17,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="listClients"
+        name="customerList"
         options={{
           headerShown: false,
           title: 'Clients',
