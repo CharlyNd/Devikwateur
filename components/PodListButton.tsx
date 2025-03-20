@@ -81,7 +81,7 @@ export function PodList() {
               onChangeText={handleChange}
               placeholder="Séparation par une virgule, un espace ou un retour à la ligne uniquement"
               placeholderTextColor="#9CA3AF"
-              // className="text-lg text-white"
+              className="text-lg text-white"
               multiline
               autoCapitalize="characters"
             />
